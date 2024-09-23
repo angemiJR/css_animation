@@ -2,22 +2,26 @@ body{
     width: 1000px;
     width: 100%;
     height: 1000px;
-    background-color: lightblue; 
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid black;
   
 }
 
 .container {
     width: 950px;
     height: 950px;
+    margin-top: 20px;
+    background: url("../images/sky.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    /* background-color: lightblue;  */
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    border: 2px solid black;
+
 }
 
 .windmill_body{
@@ -25,15 +29,40 @@ body{
     width: 335px;
     display: flex;
     position: absolute;
-    /* justify-content: center;
-    align-items: center; */
+    z-index: 0;
+
 }
 
 .grass{
     width: 1000px;
     display: flex;
     position: absolute;
+    z-index: 1;
+
+}
+
+.weel {
+    height: 600px;
+    position: absolute;
+    z-index: 3;
+    top: 90px;
+}
+
+.sun{
+    width: 200px;
+    height: 200px;
+    position: absolute;
     z-index: 2;
-    /* justify-content: flex-end;
-    align-items: center; */
+}
+
+.help_container{
+    width: 950px;
+    height: 950px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position: relative;
+    top: 20px;
+    right: 20px;
 }
