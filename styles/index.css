@@ -1,0 +1,15 @@
+body{
+    width: 1000px;
+    height: 1000px;
+  
+}
+
+.sky {
+    width: 900px;
+    height: 900px;
+  background-color:#87CEEB ;
+}
+
+.windmill_body{
+    height: 700px;
+}
