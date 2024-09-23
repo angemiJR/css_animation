@@ -1,15 +1,39 @@
 body{
     width: 1000px;
+    width: 100%;
     height: 1000px;
+    background-color: lightblue; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
   
 }
 
-.sky {
-    width: 900px;
-    height: 900px;
-  background-color:#87CEEB ;
+.container {
+    width: 950px;
+    height: 950px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border: 2px solid black;
 }
 
 .windmill_body{
-    height: 700px;
+    height: 600px;
+    width: 335px;
+    display: flex;
+    position: absolute;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.grass{
+    width: 1000px;
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    /* justify-content: flex-end;
+    align-items: center; */
 }
