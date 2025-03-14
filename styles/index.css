@@ -57,8 +57,9 @@ body {
     position: absolute;
     z-index: 3;
     top: 90px;
+    
     animation-name: weel;
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     transition-delay: 5s;
 }
