@@ -56,7 +56,8 @@ body {
     height: 600px;
     position: absolute;
     z-index: 3;
-    top: 90px;
+    top: 85px;
+    right:320px;
     
     animation-name: weel;
     animation-duration: 6s;
